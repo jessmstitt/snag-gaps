@@ -1,8 +1,8 @@
 # snag-gaps README
  
-Project: Forest canopy gaps around individual snags vs live trees
+## Project: Forest canopy gaps around individual snags vs live trees
 
-Purpose: Overview of the structure and files for the snag-gaps
+## Purpose: Overview of the structure and files for the snag-gaps
  project, built in tandem with a manuscript entitled
       "Characterizing individual tree-level snags using airborne 
       lidar-derived forest canopy gaps within closed-canopy conifer forests"
@@ -54,8 +54,7 @@ Within this folder are all results from processing done within the project:
 ## 04_reports
 Within this folder are any larger "reports" including R Markdown files, maps created within QGIS, and additional figures
 
-## **R Code: going from forest-wide canopy height model to canopy gap statistics for individual trees**
-Much of the code contained within this project derives from the [ForestGapR github page](https://github.com/carlos-alberto-silva/ForestGapR) and other sources online, such as [the lidR package book](https://jean-romain.github.io/lidRbook/index.html) and [a Quantitative Ecology tutorial](http://quantitativeecology.org/using-rlidar-and-fusion-to-delineate-individual-trees-through-canopy-height-model-segmentation/). 
-
-## Data Source & Access
+# Data sources & access
 Data were collected in large part by USFS RMRS, which provided the airborne lidar data of the Idaho Panhandle National Forests and conducted the subplot surveys across both sites.
+
+Much of the code contained within this project derives from the [ForestGapR github page](https://github.com/carlos-alberto-silva/ForestGapR) and other sources online, such as [the lidR package book](https://jean-romain.github.io/lidRbook/index.html) and [a Quantitative Ecology tutorial](http://quantitativeecology.org/using-rlidar-and-fusion-to-delineate-individual-trees-through-canopy-height-model-segmentation/). 
