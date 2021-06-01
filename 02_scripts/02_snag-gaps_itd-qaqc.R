@@ -470,8 +470,8 @@ itdSUBSET_bySite <- itdERR %>%
 ## Crop from R50m to R11m for all plots
 ITD_r25m_fws7x7 <- raster::crop(ITD_r50m_fws7x7, plotsClip_r25m)
 # write.csv(ITD_r11m_fws7x7@data,
-#           file.path(tabs, "snag-gaps_ITDlive-acc_ipnf2017_R11m_FWS7x7.csv"))
+#           file.path(tabs, "snag-gaps_ITDlive-acc_ipnf2017_R25m_FWS7x7.csv"))
 
-tidytrees_r11m_fws7x7 <- read_csv(
-    file.path(tabs, "snag-gaps_ITDlive-acc_ipnf2017_R11m_FWS7x7.csv")) %>%
+itdLive_r25m <- read_csv(
+    file.path(tabs, "snag-gaps_ITDlive-acc_ipnf2017_R25m_FWS7x7.csv")) %>%
     select(-X1)
