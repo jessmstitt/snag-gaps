@@ -2,7 +2,7 @@
  
 Project: Forest canopy gaps around individual snags vs live trees
 
-Purpose of script: Overview of the structure and files for the snag-gaps
+Purpose: Overview of the structure and files for the snag-gaps
  project, built in tandem with a manuscript entitled
       "Characterizing individual tree-level snags using airborne 
       lidar-derived forest canopy gaps within closed-canopy conifer forests"
