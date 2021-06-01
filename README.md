@@ -2,11 +2,8 @@
  
 ## Project: Forest canopy gaps around individual snags vs live trees
 
-## Purpose: Overview of the structure and files for the snag-gaps
- project, built in tandem with a manuscript entitled
-      "Characterizing individual tree-level snags using airborne 
-      lidar-derived forest canopy gaps within closed-canopy conifer forests"
-      submitted to Methods in Ecology & Evolution (MEE), March 2021
+## Purpose: Overview of the structure and files for the snag-gaps project
+Built in tandem with a manuscript entitled "Characterizing individual tree-level snags using airborne lidar-derived forest canopy gaps within closed-canopy conifer forests"; submitted to Methods in Ecology & Evolution (MEE), 2021.
 
 Corresponding author: Jess M. Stitt
 Email: jessmstitt [at] gmail.com
