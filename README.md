@@ -23,33 +23,33 @@ Canopy gaps are those areas in the overstory where trees are absent - often time
 
 # *Project structure*
 The files for this project are organized into folders, grouped into four (4) subfolders:
-    - 01_datasets
-    - 02_scripts
-    - 03_results
-    - 04_reports
+ - 01_datasets
+ - 02_scripts
+ - 03_results
+ - 04_reports
     
 ## 01_datasets
 Within this folder are the raw data used for this project, including:
-    - 01_csv = spreadsheets (.csv) for plots, snags, and subplots
-    - 02_las = airborne lidar data (**not included in this repository**)
-    - 03_gis = all files for spatial information, further subdivided:
-       - 00_shp = shapefiles (.shp) for the study sites and survey plots
-       - 01:07 folders = raster processing steps; only step included here is 
-       - 02_asc_chm-r50m = 50m-radius clips of pit-free canopy height models (chm) around each survey plot (n=53), at 0.5m resolution
+ - 01_csv = spreadsheets (.csv) for plots, snags, and subplots
+ - 02_las = airborne lidar data (**not included in this repository**)
+ - 03_gis = all files for spatial information, further subdivided:
+    - 00_shp = shapefiles (.shp) for the study sites and survey plots
+    - 01:07 folders = raster processing steps; only step included here is 
+    - 02_asc_chm-r50m = 50m-radius clips of pit-free canopy height models (chm) around each survey plot (n=53), at 0.5m resolution
 
 ## 02_scripts
 Within this folder are the four (4) R scripts (named following a template of ORDER_PROJECT_FUNCTION):
-    - 01_snag-gaps_als-proc.R = processing raw lidar data into chm for each plot
-    - 02_snag-gaps_itd-qaqc.R = individual tree detection (itd) accuracy tests
-    - 03_snag-gaps_fcgap-calc.R = individual tree-level gap detection & analyses
+ - 01_snag-gaps_als-proc.R = processing raw lidar data into chm for each plot
+ - 02_snag-gaps_itd-qaqc.R = individual tree detection (itd) accuracy tests
+ - 03_snag-gaps_fcgap-calc.R = individual tree-level gap detection & analyses
     - 04_snag-gaps_graphics.R =  generation of figures based on fc gap results
 
 ## 03_results
 Within this folder are all results from processing done within the project:
-    - 01_tables = csv files including the itd-generated live tree locations, gap statistics, and full itd accuracy test datasets
-    - 02_gis = any shapefiles of gap boundaries (**not currently included**)
-    - 03_las-metrics = lidar-derived metrics at the plot & tree level
-    - 04_figures = graphics generated based on the fc gap results
+ - 01_tables = csv files including the itd-generated live tree locations, gap statistics, and full itd accuracy test datasets
+ - 02_gis = any shapefiles of gap boundaries (**not currently included**)
+ - 03_las-metrics = lidar-derived metrics at the plot & tree level
+ - 04_figures = graphics generated based on the fc gap results
 
 ## 04_reports
 Within this folder are any larger "reports" including R Markdown files, maps created within QGIS, and additional figures
