@@ -20,11 +20,6 @@ Canopy gaps are those areas in the overstory where trees are absent - often time
 
 # *Project structure*
 The files for this project are organized into folders, grouped into four (4) subfolders:
- - 01_datasets
- - 02_scripts
- - 03_results
- - 04_reports
-    
 ## 01_datasets
 Within this folder are the raw data used for this project, including:
  - 01_csv = spreadsheets (.csv) for plots, snags, and subplots
@@ -51,7 +46,7 @@ Within this folder are all results from processing done within the project:
 ## 04_reports
 Within this folder are any larger "reports" including R Markdown files, maps created within QGIS, and additional figures
 
-# Data sources & access
+# Acknowledgements
 Data were collected in large part by USFS RMRS, which provided the airborne lidar data of the Idaho Panhandle National Forests and conducted the subplot surveys across both sites.
 
 Much of the code contained within this project derives from the [ForestGapR github page](https://github.com/carlos-alberto-silva/ForestGapR) and other sources online, such as [the lidR package book](https://jean-romain.github.io/lidRbook/index.html) and [a Quantitative Ecology tutorial](http://quantitativeecology.org/using-rlidar-and-fusion-to-delineate-individual-trees-through-canopy-height-model-segmentation/). 
