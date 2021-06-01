@@ -9,7 +9,7 @@ Purpose: Overview of the structure and files for the snag-gaps
       submitted to Methods in Ecology & Evolution (MEE), March 2021
 
 Corresponding author: Jess M. Stitt
-Email: jessmstitt@gmail.com
+Email: jessmstitt [at] gmail.com
 
 This repository contains all files related to a project investigating forest canopy gap dynamics around individual standing dead trees (snags) vs. live trees in a closed-canopy conifer forest. 
 
