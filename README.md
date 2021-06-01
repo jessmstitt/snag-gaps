@@ -42,7 +42,7 @@ Within this folder are the four (4) R scripts (named following a template of ORD
  - 01_snag-gaps_als-proc.R = processing raw lidar data into chm for each plot
  - 02_snag-gaps_itd-qaqc.R = individual tree detection (itd) accuracy tests
  - 03_snag-gaps_fcgap-calc.R = individual tree-level gap detection & analyses
-    - 04_snag-gaps_graphics.R =  generation of figures based on fc gap results
+ - 04_snag-gaps_graphics.R =  generation of figures based on fc gap results
 
 ## 03_results
 Within this folder are all results from processing done within the project:
